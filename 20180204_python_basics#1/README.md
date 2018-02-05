@@ -22,10 +22,11 @@ https://docs.python.jp/3/tutorial/
 
 ### 0.今回のゴール
 **座標空間における[2点間の距離](https://juken-mikata.net/how-to/mathematics/distance-between-two-points.html)を計算する関数を作って、使ってみる**
-#### イメージ
-![distance](./img/distance.png)
 #### 2点間の距離の公式
 ![laex](./img/latex.png)
+
+#### イメージ
+![distance](./img/distance.png)
 
 ### 1. 変数
 データにつけるラベルのこと
