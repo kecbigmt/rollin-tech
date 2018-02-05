@@ -8,9 +8,9 @@
 
 ## APIを叩いてみる
 * LINE notify
-** Document: https://notify-bot.line.me/doc/ja/
-** HTTPプロトコルとかでデータを送りつけることができる「curl」コマンドを使う
-** Macならデフォで使える。Git for Windows
+  * Document: https://notify-bot.line.me/doc/ja/
+  * HTTPプロトコルとかでデータを送りつけることができる「curl」コマンドを使う
+  * Macならデフォで使える。Git for Windows
 ```
 curl -X POST -H 'Authorization: Bearer 8kAN26TnFEWqFIPDufduqHPvoVVHXTpJBkFItmcprpH' -F 'message=foobar' \
 https://notify-api.line.me/api/notify
