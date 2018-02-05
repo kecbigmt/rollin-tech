@@ -211,7 +211,7 @@ import math
 
 # 関数の定義
 def dist(point1, point2):
-  # 2点のリストから座標を分解して変数に代入
+  # 2点のタプルから座標を分解して変数に代入
   x1 = point1[0]
   y1 = point1[1]
   x2 = point2[0]
@@ -224,8 +224,12 @@ def dist(point1, point2):
   # 計算結果を返す
   return sq
 
+# 2点の定義（中身を後から変更する予定はないのでタプルで宣言）
+point1 = (5, 5)
+point2 = (10, 10)
+
 # 関数の使用（座標はリストの形で渡す）
-d = dist([5, 5], [10, 10])
+d = dist(point1, point2)
 
 # 結果をターミナル（コマンドプロンプト）上に出力
 print(d)
