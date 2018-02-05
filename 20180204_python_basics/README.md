@@ -20,8 +20,7 @@ HackMD: https://hackmd.io/s/Hk9LHjrUG
 ※開発環境の用意はいろいろ大変なので勉強会とは別枠でサポートします
 
 ## 今回のゴール
-
-**座標空間における[2点間の距離](https://juken-mikata.net/how-to/mathematics/distance-between-two-points.html)を計算する関数を定義したうえで、計算結果をターミナル（コマンドプロンプト）上に出力する**
+「**座標空間における[2点間の距離](https://juken-mikata.net/how-to/mathematics/distance-between-two-points.html)を計算する関数を定義したうえで、計算結果をターミナル（コマンドプロンプト）上に出力する**」
 
 ### 2点間の距離の公式
 ![laex](./img/latex.png)
@@ -303,7 +302,7 @@ result = total(1, 10)
 ## 演習
 ここまでで、ゴールに到達するための知識はすべて学ぶことができました。では、あらためて今回のお題です。
 
-**座標空間における[2点間の距離](https://juken-mikata.net/how-to/mathematics/distance-between-two-points.html)を計算する関数を定義したうえで、計算結果をターミナル（コマンドプロンプト）上に出力する**
+「**座標空間における[2点間の距離](https://juken-mikata.net/how-to/mathematics/distance-between-two-points.html)を計算する関数を定義したうえで、計算結果をターミナル（コマンドプロンプト）上に出力する**」
 
 このページの上部に戻れば解答を見ることができますが、できれば解答を見返すことなく実装してほしい！
 
