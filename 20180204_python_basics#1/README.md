@@ -15,11 +15,12 @@
   2. コードを編集するためのエディタをインストール（[Atom](https://atom.io)）
 
 ※開発環境の用意はいろいろ大変なので勉強会とは別枠でサポートします
+
 ## チュートリアル
 公式のチュートリアルを参考に作成しているので、詳しいことを知りたい場合はこちらをご覧ください。
 https://docs.python.jp/3/tutorial/
 
-**今回のゴール**
+### 今回のゴール
 ![distance](./img/distance.png)
 座標空間における2点の距離を計算する
 Ref.[2点間の距離の公式が誰でも一目でわかる！3次元の場合もわかる！](https://juken-mikata.net/how-to/mathematics/distance-between-two-points.html)
