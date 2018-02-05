@@ -20,35 +20,9 @@
 公式のチュートリアルを参考に作成しているので、詳しいことを知りたい場合はこちらをご覧ください。
 https://docs.python.jp/3/tutorial/
 
-### 今回のゴール
+### 0.今回のゴール
+**座標空間における[2点間の距離](https://juken-mikata.net/how-to/mathematics/distance-between-two-points.html)を計算する関数を作って、使ってみる**
 ![distance](./img/distance.png)
-座標空間における2点の距離を計算する
-Ref.[2点間の距離の公式が誰でも一目でわかる！3次元の場合もわかる！](https://juken-mikata.net/how-to/mathematics/distance-between-two-points.html)
-```
-# 平方根を計算するためのパッケージを読み込む
-import math
-
-# 関数の定義
-def dist(point1, point2):
-  # 2点のリストから座標を分解して変数に代入
-  x1 = point1[0]
-  y1 = point1[1]
-  x2 = point2[0]
-  y2 = point2[1]
-
-  # 2点間の距離の公式に基づいて計算
-  r = (x1 - x2)**2 + (y1 - y2)**2
-  sq = math.sqrt(r)
-
-  # 計算結果を返す
-  return sq
-
-# 関数の使用（座標はリストの形で渡す）
-d = dist([5, 5], [10, 10])
-
-# 結果をターミナル（コマンドプロンプト）上に出力
-print(d)
-```
 
 ### 1. 変数
 データにつけるラベルのこと
@@ -117,8 +91,35 @@ or
 result = total(a, b)
 ```
 
-## Appendix
+## 演習
+**座標空間における[2点間の距離](https://juken-mikata.net/how-to/mathematics/distance-between-two-points.html)を計算する関数を作って、結果を出力させてみよう**
+```
+# 平方根を計算するためのパッケージを読み込む
+import math
 
+# 関数の定義
+def dist(point1, point2):
+  # 2点のリストから座標を分解して変数に代入
+  x1 = point1[0]
+  y1 = point1[1]
+  x2 = point2[0]
+  y2 = point2[1]
+
+  # 2点間の距離の公式に基づいて計算
+  r = (x1 - x2)**2 + (y1 - y2)**2
+  sq = math.sqrt(r)
+
+  # 計算結果を返す
+  return sq
+
+# 関数の使用（座標はリストの形で渡す）
+d = dist([5, 5], [10, 10])
+
+# 結果をターミナル（コマンドプロンプト）上に出力
+print(d)
+```
+
+## Appendix
 ### Pythonの特徴
 * インタープリタ型言語
   * 人間が分かる高水準言語を機械がその場で解釈しながら実行する
@@ -140,7 +141,9 @@ result = total(a, b)
 * オブジェクト指向
 **説明①**
 ポケモン（とくにイーブイ）みたいなもの
+
 ![イーブイ](http://sho-shot.blog.so-net.ne.jp/_images/blog/_f55/sho-shot/01f3ca2bc30747a4de05fe298a9c492d.jpg)
+
 1. イーブイをモンスターボールから出す（インスタンスの作成）
 2. イーブイのたいあたり！（メソッドの呼び出し）
 3. イーブイに かみなりのいしを持たせて サンダースに進化させる（継承）
@@ -150,7 +153,9 @@ result = total(a, b)
 
 **説明②**
 便利な道具箱
+
 ![おどうぐばこ](https://images-na.ssl-images-amazon.com/images/I/511K5RcxP4L.jpg)
+
 * 道具箱自体の作り方を事前に書いておく（クラスの定義）
 * 必要なときに道具箱を用意する（インスタンスの作成）
 * 道具箱に入っている道具を使用する（メソッドの呼び出し）
