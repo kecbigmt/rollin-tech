@@ -1,6 +1,6 @@
 # Pythonの基本
-こちらのナビゲーションつきのほうが読みやすいのでおすすめ（同じ内容です）
-https://hackmd.io/s/Hk9LHjrUG
+HackMD: https://hackmd.io/s/Hk9LHjrUG
+※同じ内容ですがHackMDのほうが読みやすい
 
 ## 前置き
 ### プログラムって？
